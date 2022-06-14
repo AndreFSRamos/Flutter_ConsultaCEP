@@ -1,10 +1,14 @@
-import 'package:buscador_gifs_02/ui/home.dart';
 import 'package:flutter/material.dart';
+
+import 'Pages/home.dart';
 
 void main() {
   runApp(MaterialApp(
-    home: const Home(),
-    theme: ThemeData(highlightColor: Colors.white),
     debugShowCheckedModeBanner: false,
+    home: const HomePage(),
+    theme: ThemeData(brightness: Brightness.light, primarySwatch: Colors.amber),
+    darkTheme: ThemeData(
+      brightness: Brightness.dark,
+    ),
   ));
 }

@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.14)
-project(buscador_gifs_02 LANGUAGES CXX)
+project(flutter_cep_correio LANGUAGES CXX)
 
-set(BINARY_NAME "buscador_gifs_02")
+set(BINARY_NAME "flutter_cep_correio")
 
 cmake_policy(SET CMP0063 NEW)
 

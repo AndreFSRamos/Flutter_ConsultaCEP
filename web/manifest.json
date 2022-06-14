@@ -1,6 +1,6 @@
 {
-    "name": "buscador_gifs_02",
-    "short_name": "buscador_gifs_02",
+    "name": "flutter_cep_correio",
+    "short_name": "flutter_cep_correio",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
